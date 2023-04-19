@@ -17,6 +17,10 @@ public class PlayerMovements : MonoBehaviour
       {
         Debug.Log("Se meuve a la izqda");  
       }
+      else if (Input.GetKey(KeyCode.D))
+      {
+          Debug.Log("Se mueve a la derecha");
+      }
       
     }
 }
