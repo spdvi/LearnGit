@@ -13,6 +13,7 @@ public class Jump : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Jump");
+        if(Input.GetKey(KeyCode.Space))
+            Debug.Log("Jump");
     }
 }
