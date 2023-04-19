@@ -15,5 +15,10 @@ public class Jump : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.Space))
             Debug.Log("Jump");
+
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            Debug.Log("Jump hacia arriba y hacia adelante");
+        }
     }
 }
