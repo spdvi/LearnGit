@@ -13,6 +13,10 @@ public class PlayerMovements : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+      if (Input.GetKey(KeyCode.A)) 
+      {
+        Debug.Log("Se meuve a la izqda");  
+      }
+      
     }
 }
