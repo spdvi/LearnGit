@@ -15,8 +15,17 @@ public class PlayerMovements : MonoBehaviour
     {
       if (Input.GetKey(KeyCode.A)) 
       {
-        Debug.Log("Se meuve a la izqda");  
+        Debug.Log("Se mueve a la izqda");  
       }
       
+      if (Input.GetKey(KeyCode.W)) 
+      {
+        Debug.Log("Se mueve hacia adelante");  
+      }
+      
+      else if (Input.GetKey(KeyCode.S)) 
+      {
+        Debug.Log("Se mueve hacia atras");  
+      }
     }
 }
