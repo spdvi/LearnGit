@@ -13,6 +13,10 @@ public class Jump : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Jump");
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            Debug.Log("Jump hacia arriba y hacia alante");
+        }
+        
     }
 }
