@@ -7,7 +7,7 @@ public class Disparo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log("Disparo");
     }
 
     // Update is called once per frame
